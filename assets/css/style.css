@@ -24,6 +24,10 @@ body {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     max-width: 1920px;
+    flex-direction: column;
+}
+
+.bg-mole {
     flex-wrap: wrap;
 }
 
@@ -58,9 +62,20 @@ img {
 }
 
 .worm-box {
-    width: 1660px;
+    width: 1000px;
 }
 
 .worm {
-    width: 1660px;
+    width: 1000px;
+}
+
+@media only screen and (max-width: 800px) {
+    .bg {
+        width: 500px;
+    }
+
+    .hole {
+        width: 50px;
+        height: 50px;
+    }
 }
